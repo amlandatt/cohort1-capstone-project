@@ -38,9 +38,10 @@ Ans :
    
    Terraform installation was successful. Here is the version check output.
      
- [ec2-user@ip-172-31-16-110 cohort1-capstone-project]$ terraform -v
-        Terraform v1.11.4 on linux_amd64
-        [ec2-user@ip-172-31-16-110 cohort1-capstone-project]
+    [ec2-user@ip-172-31-16-110 cohort1-capstone-project]$ terraform -v
+   Terraform v1.11.4 on linux_amd64
+   
+   [ec2-user@ip-172-31-16-110 cohort1-capstone-project]
      
 
 ============================================================
