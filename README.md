@@ -19,9 +19,9 @@ Default output format [json]:
 
 
 - AMI already has git installed . Here is the test result.
-        [ec2-user@ip-172-31-16-110 cohort1-capstone-project]$ git -v
 
-        git version 2.47.1
+        [ec2-user@ip-172-31-16-110 cohort1-capstone-project]$ git -v
+     git version 2.47.1
            
  
 =========================================================
