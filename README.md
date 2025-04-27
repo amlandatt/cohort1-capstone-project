@@ -66,13 +66,16 @@ Ans :
 
 Ans :
  - Static website bucket name passed as a variable( NOT as random name ) . Randam name is not something that a client likes in his environment .In case names need to be changed , modify it in this file .
+ - 
    
      cohort1-capstone-project/terraform/aws/static-website/modules/static_site_bucket/variables.tf
    
 
  - to run the project go to the directory
+   
     cohort1-capstone-project/terraform/aws/static-website
-        Run following commands :
+   
+    Run following commands :
    
        terraform init
    
@@ -80,7 +83,7 @@ Ans :
    
        terraform apply
    
-  - S3 hosting URL will be shown in the terminal . Paste it in browser and check output
+  - S3 hosting URL will be shown in the terminal . Paste it in browser and check output.
     
 
   
@@ -89,6 +92,6 @@ Ans :
 5. Put a copy of your code in Git, then destroy the infrastructure. Leave the environment intact.
    
    Ans :
-      Code placed in git repo.
+      Code placed in git hub repo.
    
    
