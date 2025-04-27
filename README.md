@@ -65,12 +65,10 @@ Ans :
 4. Build a website similar to the Space Invaders site you built in class by reusing modules.
 
 Ans :
- - Static website bucket name passed as a variable( NOT as random name ) . Randam name is not something that a client likes in his environment .In case names need to be changed , modify it in this file .
- - 
+ - Static website bucket name passed as a variable( NOT as random name ) . Randam name is not something that a client likes in his environment .In case names need to be changed , modify it in this file.
    
      cohort1-capstone-project/terraform/aws/static-website/modules/static_site_bucket/variables.tf
    
-
  - to run the project go to the directory
    
     cohort1-capstone-project/terraform/aws/static-website
