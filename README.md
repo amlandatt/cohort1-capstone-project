@@ -32,19 +32,14 @@ Default output format [json]:
 Ans :
    - For terraform installation using hassicorp repo , following steps used
 
-        sudo yum install -y yum-utils
+    sudo yum install -y yum-utils     
+    sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
+    sudo yum -y install terraform
+   
+   Terraform installation was successful. Here is the version check output.
      
-        sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
-     
-        sudo yum -y install terraform
-     
-
-      Terraform installation was successful. Here is the version check output.
-     
-        [ec2-user@ip-172-31-16-110 cohort1-capstone-project]$ terraform -v
-     
+ [ec2-user@ip-172-31-16-110 cohort1-capstone-project]$ terraform -v
         Terraform v1.11.4 on linux_amd64
-     
         [ec2-user@ip-172-31-16-110 cohort1-capstone-project]
      
 
