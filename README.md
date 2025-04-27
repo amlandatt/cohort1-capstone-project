@@ -69,7 +69,7 @@ Ans :
    
      cohort1-capstone-project/terraform/aws/static-website/modules/static_site_bucket/variables.tf
    
- - to run the project go to the directory
+ - To run the project go to the directory
    
     cohort1-capstone-project/terraform/aws/static-website
    
