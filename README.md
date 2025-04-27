@@ -1,5 +1,7 @@
 1. Build an environment to run Terraform
 
+Ans :
+
    - For this exercise an EC2 with Amazon Linux AMI has been used. Instance id is i-01fff03593dc4acc6 , created in us-east-1
    - EC2 has been configured with 'access key Id' and 'secret access key' to use Terraform cli , as shown below.
              
@@ -20,6 +22,8 @@ Default output format [json]:
 
 2.Install the Terraform software and ensure it works properly
 
+Ans :
+
    - For terraform installation using hassicorp repo , following steps used
 
         sudo yum install -y yum-utils
@@ -35,6 +39,8 @@ on linux_amd64
 ============================================================
 
 3.Test the environment by creating a simple virtual machine
+
+Ans :
     - Test VM created successfully and the code is placed in the following directory.
            cohort1-capstone-project/terraform/aws/test-vm-for-initial-check
 
@@ -42,6 +48,21 @@ on linux_amd64
           terraform init
           terraform plan
           terraform apply
+====================================
+Q : ---------
 
+Ans :
+ - Static website bucket name passed as a variable( NOT as random name ) . Randam name is not something that a client likes in his environment .In case names need to be changed , modify it in this file .
+     terraform/aws/static-website/modules/static_site_bucket/variables.tf
+
+ - to run the project go to the directory
+           terraform/aws/static-website
+        Run following commands :
+           terraform init
+           terraform apply -target=module.s3_module
+           terraform apply
+
+  - S3 hosting URL will be shown in the terminal . Paste it in browser and check output
+  
 
 
