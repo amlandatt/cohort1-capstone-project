@@ -50,7 +50,8 @@ Ans :
 
 Ans :
     - Test VM created successfully and the code is placed in the following directory.
-    cohort1-capstone-project/terraform/aws/test-vm-for-initial-check
+    
+   cohort1-capstone-project/terraform/aws/test-vm-for-initial-check
          
    - you may download code and run following commands to create vm
 
@@ -62,7 +63,6 @@ Ans :
 
 
 4. Build a website similar to the Space Invaders site you built in class by reusing modules.
-5. 
 
 Ans :
  - Static website bucket name passed as a variable( NOT as random name ) . Randam name is not something that a client likes in his environment .In case names need to be changed , modify it in this file .
