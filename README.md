@@ -57,12 +57,10 @@ Ans :
     cohort1-capstone-project/terraform/aws/test-vm-for-initial-check
          
    - you may download code and run following commands to create vm
-     
-     terraform init
-     
-     terraform plan
 
-     terraform apply
+    terraform init
+    trraform plan
+    terraform apply
      
 ====================================
 
